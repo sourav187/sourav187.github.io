@@ -4,6 +4,14 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ @font-face{
+   font-family:"Agustina Regular";
+   src: url(../fonts/Agustina.woff);
+ }
+ @font-face{
+  font-family:"JanuryScript";
+  src: url(../fonts/JanuaryScript_PERSONAL_USE_ONLY.ttf);
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -404,6 +412,11 @@ mark,
   max-width: 100%;
   height: auto; }
 
+.logo-name {
+    font-family: Agustina Regular;
+    font-weight: 700;
+    padding: 0 10px;
+}
 .figure {
   display: inline-block; }
 
@@ -8298,7 +8311,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #000000 !important;
+    background: #743499 !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0 15px; }
@@ -8359,14 +8372,14 @@ h1, h2, h3, h4, h5,
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
       color: #fff;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      padding-top: 0.3rem;
+      padding-bottom: 0rem;
       font-size: 24px; }
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 24px;
-  text-transform: uppercase; }
+  font-size: 40px;
+  }
 
 .hero h3.vr {
   -webkit-writing-mode: vertical-lr;
